@@ -1,0 +1,34 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+<fieldset>
+    <legend><h1>This is about Me</h1></legend>
+    <h2>Your Future Web Developer</h2>
+    <img class="mySelf" src="{% static 'image/Aron1.jpg' %}">
+    <div>
+        <h1>Hi<span> Im Aron Ogalina</span></h1>
+        <h2>BSIT 3-1</h2>
+        <p><i>20</i> years old dream to be a <strong>Web Developer</strong> someday </p>
+    </div>
+</fieldset>
+<fieldset>
+    <legend><h1>Home Town</h1></legend>
+    <h2>Current live on</h2>
+    <img class="mySelf" src="{% static 'image/back.jpg' %}">
+    <div>
+        <h1><span>Paranaque City</span></h1>
+        <h2>The Fashion Capital</h2>
+        <p>of the <strong>Philippines</strong></p>
+    </div>
+</fieldset>
+<fieldset>
+    <legend><h1>Statues</h1></legend>
+    <img class="mySelf" src="{% static 'image/fam.jpg' %}">
+    <div>
+        <h1><span>Youngest</span></h1>
+        <h2>Son </h2>
+        <p>of the <strong>Family</strong></p>
+    </div>
+</fieldset>
+    {% endblock content %}

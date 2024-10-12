@@ -1,0 +1,92 @@
+body{
+   background-color: #5CDB95;
+}
+h1, h2, p{
+    color: #05386B;
+    text-align: center;
+}
+.front{
+    text-align: center;
+    font: bold;
+}
+
+.mylogo{
+    height: 300px;
+    width: auto;
+  
+}
+/*About*/
+.mySelf{
+    height: 400px;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+/*button at the top */
+ .header a{
+    width: 90%;
+    margin: auto;  
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 35px 2rem;
+
+}
+a:hover{
+    color: orange;
+}
+/*contact*/
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #05386B;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #05386B;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 20px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #05386B;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+}
